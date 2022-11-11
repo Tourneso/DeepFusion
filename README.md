@@ -1,4 +1,4 @@
-### This is the online repository of the paper titled "DeepFusion: Smart contract vulnerability detection via deep learning and data fusion".
+## This is the online repository of the paper titled "DeepFusion: Smart contract vulnerability detection via deep learning and data fusion".
 
 DeepFusion is an Ethereum smart contract vulnerability detection method, it can detect 5 types of Solidity smart contract vulnerabilities.
 
