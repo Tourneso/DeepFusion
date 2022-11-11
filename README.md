@@ -7,6 +7,23 @@ DeepFusion is an Ethereum smart contract vulnerability detection method, it can 
 
 Detect reentrancy, timestamp dependence, integer overflow and underflow, Use tx.origin for authentication and Unprotected Selfdestruct Instruction vulnerabilities in smart contract.
 
+## Requirements
+
+#### Required Packages
+* **python**3
+* **TensorFlow**1.14.0 
+* **keras**2.2.4 with TensorFlow backend
+* **sklearn** for model evaluation
+* **docopt** as a command-line interface parser 
+
+Run the following script to install the required packages.
+```shell
+pip install --upgrade pip
+pip install tensorflow==1.14.0
+pip install keras==2.2.4
+pip install scikit-learn
+pip install docopt
+```
 
 ## Structure in this project
 
