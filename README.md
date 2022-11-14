@@ -54,4 +54,4 @@ ${DeepFusion}
 
 - `dataset`: This is results of two kinds of data processing.
 - `models/representation_fu_BLSTM_Attention.py`: This is the training and testing model of fused data.
-- `ProgmaSlicing/ree/progmaSlicing_code.py`: This is to extract code slicing information of re-entrancy vulnerability.
+- `ProgmaSlicing/ree/progmaSlicing_code.py`: This is to extract code slicing information of reentrancy vulnerability.
