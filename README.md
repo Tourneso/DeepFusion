@@ -12,14 +12,14 @@ Detect reentrancy, timestamp dependence, integer overflow and underflow, Use tx.
 #### Required Packages
 * **python**3
 * **TensorFlow**1.14.0 
-* **keras**2.2.4 with TensorFlow backend
+* **keras** with TensorFlow backend
 * **sklearn** for model evaluation
 
 Run the following script to install the required packages.
 ```shell
 pip install --upgrade pip
 pip install tensorflow==1.14.0
-pip install keras==2.2.4
+pip install keras
 pip install scikit-learn
 ```
 
