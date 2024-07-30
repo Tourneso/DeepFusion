@@ -1,11 +1,11 @@
-## This is the online repository of the paper titled "DeepFusion: Smart contract vulnerability detection via deep learning and data fusion".
+## This is the online repository of the paper DeepFusion".
 
 DeepFusion is an Ethereum smart contract vulnerability detection method, it can detect 5 types of Solidity smart contract vulnerabilities.
 
 
 ## Task Definition
 
-Detect reentrancy, timestamp dependence, integer overflow and underflow, Use tx.origin for authentication and Unprotected Selfdestruct Instruction vulnerabilities in smart contract.
+Detect five vulnerabilities in smart contract.
 
 ## Requirements
 
@@ -28,19 +28,19 @@ pip install scikit-learn
 ```
 ${DeepFusion}
 ├── dataset
-│   ├── IntergerOverOrUnderFlow
+│   ├── Interger
 │   │   └── ast.txt
 │   │   └── code_slicing.txt
-│   ├── reentrancy
+│   ├── ree
 │   │   └── ast.txt
 │   │   └── code_slicing.txt
-│   └── Selfdestruct
+│   └── Self
 │   |   └── ast.txt
 │   |   └── code_slicing.txt
-│   └── timestamp
+│   └── time
 │   |   └── ast.txt
 │   |   └── code_slicing.txt
-│   └── txOrigin
+│   └── tx
 │   |   └── ast.txt
 │   |   └── code_slicing.txt
 ├── models
